@@ -44,7 +44,7 @@ class Tris ():
           raise ValueError()
         break
       except ValueError:
-        print(f'Yo bro ther available positions are: {self.available_pos}...')
+        print(f'Yo bro the available positions are: {self.available_pos}...')
         print(f'{pos} is not valid! Try again!')
       
     
